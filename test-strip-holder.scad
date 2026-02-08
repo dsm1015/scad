@@ -3,9 +3,9 @@ $fa = 0.05;
 $fs = 0.1;
 
 difference() {
-cube([3.5,2,3]);
-translate([0.875, 1, 0.5])
-    cylinder(3, 0.8, 0.8);
-translate([2.625, 1, 0.5])
-    cylinder(3, 0.8, 0.8);
+cube([2,1,3]);
+translate([0.5, 0.5, 0.5])
+    cylinder(3, 0.4, 0.4);
+translate([1.5, 0.5, 0.5])
+    cylinder(3, 0.4, 0.4);
 }
